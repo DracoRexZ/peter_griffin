@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <h1 style="color:blue;">Holy crap Lois.</h1>
+  </head>
+  <body>
+    <p style="color:orange;">I'm in Fortnite!</p>
+    <ul>
+      <li style="font-family:Garamond">Giggity</li>
+      <li style="font-family:Calibri">Giggity</li>
+      <li style="font-family:Franklin Gothic Medium">Goo!</li>
+    </ul>
+    <img src="Peter_Griffin.png.webp">
+  </body>
+</html>
