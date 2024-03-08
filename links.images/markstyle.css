@@ -1,0 +1,56 @@
+#betrothed {
+    color: red;
+    background-color: rgb(94, 239, 184);
+    font-family: Garamond;
+    font-size: 50px;
+    text-align: center;
+}
+
+#mark {
+    width: 200px;
+    height: 500px;
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#marry {
+    font-family: Franklin Gothic;
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+html {
+    background-color: rgb(94, 239, 184)
+}
+
+.soniditocontainer {
+    position: relative;
+    height: 200px;
+}
+
+.stext {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: lightpink;
+    border: 3px solid red;
+    font-family: Calibri;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.stext:hover {
+    background-color: red;
+    color: white;
+}
