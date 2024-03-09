@@ -1,0 +1,90 @@
+.girlkisser {
+    display: flex;
+    padding: 16px;
+    border: 6px inset black;
+    margin: 8px;
+    background-image: linear-gradient(teal, rgb(24, 82, 82));
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-radius: 12px;
+}
+
+.girlkisser div {
+    background-color: lightgray;
+    border: 4px groove grey;
+    height: auto;
+    flex: 1;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 4px;
+}
+
+.goofy {
+    display: flex;
+    padding: 16px;
+    border: 6px inset black;
+    margin: 8px;
+    background-image: linear-gradient(rgb(15, 179, 83), rgb(17, 102, 52));
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-radius: 12px;
+}
+
+.goofy div {
+    background-color: lightgray;
+    border: 4px groove grey;
+    height: auto;
+    flex: 1;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 4px;
+}
+
+.videos {
+    display: flex;
+    padding: 16px;
+    border: 6px inset black;
+    margin: 8px;
+    background-image: linear-gradient(aquamarine, rgb(13, 138, 96));
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-radius: 12px;
+}
+
+.videos div {
+    background-color: lightgray;
+    border: 4px groove grey;
+    height: auto;
+    flex: 1;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+html {
+    background-color: rgba(0, 168, 84, 0.568);
+}
+
+#header {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff57ab;
+    border: 8px outset darkgreen;
+    display: flex;
+    background-image: linear-gradient(#00a854, #124d15);
+    text-shadow: -2px 2px rgb(110, 3, 3);
+    justify-content: center;
+    border-radius: 30px;
+    padding: 6px;
+}
