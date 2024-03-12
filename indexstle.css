@@ -1,0 +1,452 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+.links {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg, #1fd1f9 0%, #b621fe 100%);
+    color: white;
+}
+
+.inner-header {
+    height: 25vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+/* Animations */
+
+.parallax > use {
+    animation: moveForever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes moveForever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+    .content {
+        height: 30vh;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* Buttons */
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+a {
+    margin: 20px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: -50%;
+    margin-bottom: 5%;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0,0,0,0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.buttonVideo {
+    background-color: #f0ecfc;
+    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    margin: auto;
+}
+
+.buttonVideo span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonVideo:before,
+.buttonVideo:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonVideo:before {
+    height: 0%;
+    width: 2px;
+}
+.buttonVideo:after {
+    width: 0%;
+    height: 2px;
+}
+
+.buttonVideo:hover:before {
+    height: 100%;
+}
+
+.buttonVideo:hover:after {
+    width: 100%;
+}
+
+.buttonVideo:hover {
+    background: transparent;
+}
+
+.buttonVideo span:hover {
+    color: #c797eb;
+}
+.buttonVideo span:before, 
+.buttonVideo span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonVideo span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.buttonVideo span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.buttonVideo span:hover:before {
+    height: 100%;
+}
+
+.buttonVideo span:hover:after {
+    width: 100%;
+}
+
+/* Button 2*/
+
+.buttonPeter {
+    background-color: #f0ecfc;
+    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    margin: auto;
+}
+
+.buttonPeter span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonPeter:before,
+.buttonPeter:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonPeter:before {
+    height: 0%;
+    width: 2px;
+}
+.buttonPeter:after {
+    width: 0%;
+    height: 2px;
+}
+
+.buttonPeter:hover:before {
+    height: 100%;
+}
+
+.buttonPeter:hover:after {
+    width: 100%;
+}
+
+.buttonPeter:hover {
+    background: transparent;
+}
+
+.buttonPeter span:hover {
+    color: #c797eb;
+}
+.buttonPeter span:before, 
+.buttonPeter span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonPeter span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.buttonPeter span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.buttonPeter span:hover:before {
+    height: 100%;
+}
+
+.buttonPeter span:hover:after {
+    width: 100%;
+}
+
+/* Button3 */
+
+.buttonMark {
+    background-color: #f0ecfc;
+    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    margin: auto;
+}
+
+.buttonMark span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonMark:before,
+.buttonMark:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonMark:before {
+    height: 0%;
+    width: 2px;
+}
+.buttonMark:after {
+    width: 0%;
+    height: 2px;
+}
+
+.buttonMark:hover:before {
+    height: 100%;
+}
+
+.buttonMark:hover:after {
+    width: 100%;
+}
+
+.buttonMark:hover {
+    background: transparent;
+}
+
+.buttonMark span:hover {
+    color: #c797eb;
+}
+.buttonMark span:before, 
+.buttonMark span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonMark span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.buttonMark span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.buttonMark span:hover:before {
+    height: 100%;
+}
+
+.buttonMark span:hover:after {
+    width: 100%;
+}
+
+/* Button 4 */
+
+.buttonKisser {
+    background-color: #f0ecfc;
+    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    margin: auto;
+}
+
+.buttonKisser span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonKisser:before,
+.buttonKisser:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonKisser:before {
+    height: 0%;
+    width: 2px;
+}
+.buttonKisser:after {
+    width: 0%;
+    height: 2px;
+}
+
+.buttonKisser:hover:before {
+    height: 100%;
+}
+
+.buttonKisser:hover:after {
+    width: 100%;
+}
+
+.buttonKisser:hover {
+    background: transparent;
+}
+
+.buttonKisser span:hover {
+    color: #c797eb;
+}
+.buttonKisser span:before, 
+.buttonKisser span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+}
+
+.buttonKisser span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.buttonKisser span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.buttonKisser span:hover:before {
+    height: 100%;
+}
+
+.buttonKisser span:hover:after {
+    width: 100%;
+}

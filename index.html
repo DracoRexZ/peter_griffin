@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Webpage</title>
+    <link rel="stylesheet" href="indexstle.css" />
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <!-- Peter Griffin heheheheheheh -->
-  <a href="https://youtu.be/tdSqBZbDUQE?si=Yp30oiX9CdqW4Ocw" target="_blank" rel="noopener noreferrer">Click me</a>
-    <br><br>
-  <a href="./links.images/petorgrif.html">Silly prank heheheh</a>
-    <br><br>
-  <a href="./links.images/marketplayer.html">Husbanto-senpai</a>
-    <br><br>
-  <a href="./links.images/girlkisser.html">Hornymaxxing</a>
+  <div class="header">
+    <div class="inner-header flex">
+      <h1>Dani's Programming Extravaganza</h1>
+    </div>
+  <!--waves below-->
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255, 255, 255, 0.7)" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255, 255, 255, 0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255, 255, 255, 0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--Waves end here-->
+  </div>
+  <!--Header ends here-->
+
+  <!-- Actual content below! -->
+  <div class="content flex">
+  <div class="links">
+    <div class="frame">
+    <a href="https://youtu.be/tdSqBZbDUQE?si=Yp30oiX9CdqW4Ocw" class="custom-btn buttonVideo" target="_blank" rel="noopener noreferrer"><span><strong>Silly prank hehe</strong></span></a>
+      <br><br>
+    <a href="./links.images/petorgrif.html" class=" custom-btn buttonPeter"><span><strong>He who opposes</strong></span></a>
+      <br><br>
+    <a href="./links.images/marketplayer.html" class="custom-btn buttonMark"><span><strong>Husbanto-Senpai</strong></span></a>
+      <br><br>
+    <a href="./links.images/girlkisser.html" class="custom-btn buttonKisser"><span><strong>Hornymaxxing</strong></span></a>
+    </div>
+  </div>
+  </div>
 </body>
 </html>
