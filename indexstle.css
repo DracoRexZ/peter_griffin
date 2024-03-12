@@ -132,92 +132,6 @@ a {
     display: inline-flex;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0,0,0,0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
     outline: none;
-}
-
-/* Button 1 */
-
-.buttonVideo {
-    background-color: #f0ecfc;
-    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    margin: auto;
-    
-}
-
-.buttonVideo span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.buttonVideo:before,
-.buttonVideo:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    bottom: 0;
-    background: #c797eb;
-    transition: all 0.3s ease;
-}
-
-.buttonVideo:before {
-    height: 0%;
-    width: 2px;
-}
-.buttonVideo:after {
-    width: 0%;
-    height: 2px;
-}
-
-.buttonVideo:hover:before {
-    height: 100%;
-}
-
-.buttonVideo:hover:after {
-    width: 100%;
-}
-
-.buttonVideo:hover {
-    background: transparent;
-}
-
-.buttonVideo span:hover {
-    color: #c797eb;
-}
-.buttonVideo span:before, 
-.buttonVideo span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    background: #c797eb;
-    transition: all 0.3s ease;
-}
-
-.buttonVideo span:before {
-    width: 2px;
-    height: 0%;
-}
-
-.buttonVideo span:after {
-    height: 2px;
-    width: 0%;
-}
-
-.buttonVideo span:hover:before {
-    height: 100%;
-}
-
-.buttonVideo span:hover:after {
-    width: 100%;
-}
-
-/* Button 2*/
-
-.buttonPeter {
     background-color: #f0ecfc;
     background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
     line-height: 42px;
@@ -226,15 +140,15 @@ a {
     margin: auto;
 }
 
-.buttonPeter span {
+.custom-btn span {
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.buttonPeter:before,
-.buttonPeter:after {
+.custom-btn:before,
+.custom-btn:after {
     position: absolute;
     content: "";
     right: 0;
@@ -243,32 +157,32 @@ a {
     transition: all 0.3s ease;
 }
 
-.buttonPeter:before {
+.custom-btn:before {
     height: 0%;
     width: 2px;
 }
-.buttonPeter:after {
+.custom-btn:after {
     width: 0%;
     height: 2px;
 }
 
-.buttonPeter:hover:before {
+.custom-btn:hover:before {
     height: 100%;
 }
 
-.buttonPeter:hover:after {
+.custom-btn:hover:after {
     width: 100%;
 }
 
-.buttonPeter:hover {
+.custom-btn:hover {
     background: transparent;
 }
 
-.buttonPeter span:hover {
+.custom-btn span:hover {
     color: #c797eb;
 }
-.buttonPeter span:before, 
-.buttonPeter span:after {
+.custom-btn span:before, 
+.custom-btn span:after {
     position: absolute;
     content: "";
     left: 0;
@@ -277,180 +191,20 @@ a {
     transition: all 0.3s ease;
 }
 
-.buttonPeter span:before {
+.custom-btn span:before {
     width: 2px;
     height: 0%;
 }
 
-.buttonPeter span:after {
+.custom-btn span:after {
     height: 2px;
     width: 0%;
 }
 
-.buttonPeter span:hover:before {
+.custom-btn span:hover:before {
     height: 100%;
 }
 
-.buttonPeter span:hover:after {
-    width: 100%;
-}
-
-/* Button3 */
-
-.buttonMark {
-    background-color: #f0ecfc;
-    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    margin: auto;
-}
-
-.buttonMark span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.buttonMark:before,
-.buttonMark:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    bottom: 0;
-    background: #c797eb;
-    transition: all 0.3s ease;
-}
-
-.buttonMark:before {
-    height: 0%;
-    width: 2px;
-}
-.buttonMark:after {
-    width: 0%;
-    height: 2px;
-}
-
-.buttonMark:hover:before {
-    height: 100%;
-}
-
-.buttonMark:hover:after {
-    width: 100%;
-}
-
-.buttonMark:hover {
-    background: transparent;
-}
-
-.buttonMark span:hover {
-    color: #c797eb;
-}
-.buttonMark span:before, 
-.buttonMark span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    background: #c797eb;
-    transition: all 0.3s ease;
-}
-
-.buttonMark span:before {
-    width: 2px;
-    height: 0%;
-}
-
-.buttonMark span:after {
-    height: 2px;
-    width: 0%;
-}
-
-.buttonMark span:hover:before {
-    height: 100%;
-}
-
-.buttonMark span:hover:after {
-    width: 100%;
-}
-
-/* Button 4 */
-
-.buttonKisser {
-    background-color: #f0ecfc;
-    background-image: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    margin: auto;
-}
-
-.buttonKisser span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.buttonKisser:before,
-.buttonKisser:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    bottom: 0;
-    background: #c797eb;
-    transition: all 0.3s ease;
-}
-
-.buttonKisser:before {
-    height: 0%;
-    width: 2px;
-}
-.buttonKisser:after {
-    width: 0%;
-    height: 2px;
-}
-
-.buttonKisser:hover:before {
-    height: 100%;
-}
-
-.buttonKisser:hover:after {
-    width: 100%;
-}
-
-.buttonKisser:hover {
-    background: transparent;
-}
-
-.buttonKisser span:hover {
-    color: #c797eb;
-}
-.buttonKisser span:before, 
-.buttonKisser span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    background: #c797eb;
-    transition: all 0.3s ease;
-}
-
-.buttonKisser span:before {
-    width: 2px;
-    height: 0%;
-}
-
-.buttonKisser span:after {
-    height: 2px;
-    width: 0%;
-}
-
-.buttonKisser span:hover:before {
-    height: 100%;
-}
-
-.buttonKisser span:hover:after {
+.custom-btn span:hover:after {
     width: 100%;
 }
